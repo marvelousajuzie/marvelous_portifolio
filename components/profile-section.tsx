@@ -67,7 +67,7 @@ export default function ProfileSection() {
 
               <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 flex gap-4">
                 <Link
-                  href="https://github.com"
+                  href="https://github.com/marvelousajuzie"
                   target="_blank"
                   aria-label="GitHub"
                   className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
@@ -75,7 +75,7 @@ export default function ProfileSection() {
                   <Github className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/marvelous-ajuzie-14652b2a4/"
                   target="_blank"
                   aria-label="LinkedIn"
                   className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
@@ -83,7 +83,7 @@ export default function ProfileSection() {
                   <Linkedin className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="mailto:marvelous@example.com"
+                  href="chizurummarvelous14@gmail.com"
                   aria-label="Email"
                   className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
                 >
@@ -116,11 +116,11 @@ export default function ProfileSection() {
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <div className="px-4 py-2 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
                 <span className="text-sm text-gray-400">Location</span>
-                <p className="font-medium">Lagos, Nigeria</p>
+                <p className="font-medium"> Nigeria</p>
               </div>
               <div className="px-4 py-2 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
                 <span className="text-sm text-gray-400">Experience</span>
-                <p className="font-medium">5+ Years</p>
+                <p className="font-medium">4+ Years</p>
               </div>
               <div className="px-4 py-2 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
                 <span className="text-sm text-gray-400">Availability</span>

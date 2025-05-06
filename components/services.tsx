@@ -52,31 +52,17 @@ export default function Services() {
       description: "Building distributed systems with microservices architecture for scalability and maintainability.",
     },
     {
-      icon: <Smartphone className="w-6 h-6" />,
-      title: "Responsive Web Apps",
-      description: "Developing web applications that work flawlessly across all devices and screen sizes.",
-    },
-    {
-      icon: <Globe className="w-6 h-6" />,
-      title: "Full-Stack Solutions",
-      description: "End-to-end development from frontend to backend, creating cohesive and integrated applications.",
-    },
-    {
       icon: <Shield className="w-6 h-6" />,
       title: "Security Implementation",
       description:
         "Implementing robust authentication, authorization, and data protection measures for web applications.",
     },
     {
-      icon: <Zap className="w-6 h-6" />,
-      title: "Performance Optimization",
-      description: "Identifying and resolving bottlenecks to enhance system performance and reduce latency.",
+      icon: <Globe className="w-6 h-6" />,
+      title: "Full-Stack Solutions",
+      description: "End-to-end development from frontend to backend, creating cohesive and integrated applications.",
     },
-    {
-      icon: <BarChart className="w-6 h-6" />,
-      title: "Data Visualization",
-      description: "Building interactive dashboards and data visualization tools for complex information.",
-    },
+   
   ]
 
   return (
