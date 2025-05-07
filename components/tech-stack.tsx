@@ -18,6 +18,14 @@ export default function TechStack() {
 
   const technologies: Technology[] = [
     // Frontend
+
+    {
+      name: "Flutter",
+      category: "frontend",
+      icon: "⚛️",
+      proficiency: 95,
+      description: "Flutter for building Mobile Application for both android and IOS",
+    },
     {
       name: "React.js",
       category: "frontend",
@@ -25,13 +33,7 @@ export default function TechStack() {
       proficiency: 95,
       description: "JavaScript library for building user interfaces with component-based architecture",
     },
-    {
-      name: "Next.js",
-      category: "frontend",
-      icon: "𝗡",
-      proficiency: 90,
-      description: "React framework for production with server-side rendering and static site generation",
-    },
+  
     {
       name: "TypeScript",
       category: "frontend",
@@ -47,21 +49,15 @@ export default function TechStack() {
       description: "Utility-first CSS framework for rapidly building custom user interfaces",
     },
     {
-      name: "Framer Motion",
+      name: "JavaScrips",
       category: "frontend",
       icon: "🔄",
       proficiency: 80,
-      description: "Production-ready motion library for React to create fluid animations",
+      description: "Javascripts Language",
     },
 
     // Backend
-    {
-      name: "Node.js",
-      category: "backend",
-      icon: "⬢",
-      proficiency: 90,
-      description: "Server-side JavaScript runtime for building scalable network applications",
-    },
+   
     {
       name: "Python",
       category: "backend",
@@ -69,13 +65,7 @@ export default function TechStack() {
       proficiency: 85,
       description: "Versatile language used for data processing, API development, and automation",
     },
-    {
-      name: "Express",
-      category: "backend",
-      icon: "𝗘𝗫",
-      proficiency: 90,
-      description: "Fast, unopinionated, minimalist web framework for Node.js",
-    },
+
     {
       name: "Flask",
       category: "backend",
@@ -83,13 +73,7 @@ export default function TechStack() {
       proficiency: 85,
       description: "Lightweight WSGI web application framework in Python",
     },
-    {
-      name: "FastAPI",
-      category: "backend",
-      icon: "⚡",
-      proficiency: 80,
-      description: "Modern, fast web framework for building APIs with Python",
-    },
+
     {
       name: "Django",
       category: "backend",
@@ -113,13 +97,7 @@ export default function TechStack() {
       proficiency: 85,
       description: "Document-oriented NoSQL database used for high volume data storage",
     },
-    {
-      name: "Redis",
-      category: "database",
-      icon: "🔴",
-      proficiency: 80,
-      description: "In-memory data structure store used as database, cache, and message broker",
-    },
+
 
     // Tools
     {
@@ -143,13 +121,7 @@ export default function TechStack() {
       proficiency: 80,
       description: "Comprehensive cloud computing platform with various services",
     },
-    {
-      name: "CI/CD",
-      category: "tool",
-      icon: "🔄",
-      proficiency: 85,
-      description: "Practices of continuous integration and continuous deployment",
-    },
+
   ]
 
   const categories = [

@@ -59,27 +59,12 @@ export default function UpdatedServices() {
         "End-to-end development of web applications that deliver exceptional user experiences with solid architecture.",
     },
     {
-      icon: <Smartphone className="w-6 h-6" />,
-      title: "Responsive Design",
-      description:
-        "Creating interfaces that work flawlessly across all devices, from desktop to mobile and everything in between.",
-    },
-    {
       icon: <Shield className="w-6 h-6" />,
       title: "Security Implementation",
       description:
         "Implementing robust authentication, authorization, and data protection measures for your applications.",
     },
-    {
-      icon: <Zap className="w-6 h-6" />,
-      title: "Performance Optimization",
-      description: "Identifying and resolving bottlenecks to enhance system performance and reduce latency.",
-    },
-    {
-      icon: <Palette className="w-6 h-6" />,
-      title: "UI/UX Collaboration",
-      description: "Working closely with designers to implement pixel-perfect interfaces that delight users.",
-    },
+   
   ]
 
   return (

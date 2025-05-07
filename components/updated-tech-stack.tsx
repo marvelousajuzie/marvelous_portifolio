@@ -19,19 +19,20 @@ export default function UpdatedTechStack() {
   const technologies: Technology[] = [
     // Frontend
     {
+      name: "Flutter",
+      category: "frontend",
+      icon: "⚛️",
+      proficiency: 95,
+      description: "Flutter for building Mobile Application for both android and IOS",
+    },
+    {
       name: "React.js",
       category: "frontend",
       icon: "⚛️",
       proficiency: 95,
-      description: "Library for building user interfaces with component-based architecture",
+      description: "JavaScript library for building user interfaces with component-based architecture",
     },
-    {
-      name: "Next.js",
-      category: "frontend",
-      icon: "𝗡",
-      proficiency: 90,
-      description: "React framework for production with server-side rendering and static site generation",
-    },
+  
     {
       name: "TypeScript",
       category: "frontend",
@@ -44,31 +45,19 @@ export default function UpdatedTechStack() {
       category: "frontend",
       icon: "🌊",
       proficiency: 90,
-      description: "Utility-first CSS framework for rapidly building custom designs",
+      description: "Utility-first CSS framework for rapidly building custom user interfaces",
     },
     {
-      name: "Framer Motion",
+      name: "JavaScripst",
       category: "frontend",
       icon: "🔄",
       proficiency: 80,
-      description: "Production-ready motion library for React",
+      description: "Javascripts Language",
     },
 
+
     // Backend
-    {
-      name: "Node.js",
-      category: "backend",
-      icon: "⬢",
-      proficiency: 90,
-      description: "Server-side JavaScript runtime for building scalable network applications",
-    },
-    {
-      name: "Express",
-      category: "backend",
-      icon: "𝗘𝗫",
-      proficiency: 90,
-      description: "Fast, unopinionated, minimalist web framework for Node.js",
-    },
+  
     {
       name: "Python",
       category: "backend",
@@ -77,18 +66,19 @@ export default function UpdatedTechStack() {
       description: "Versatile language used for data processing, API development, and automation",
     },
     {
-      name: "FastAPI",
+      name: "Flask",
       category: "backend",
-      icon: "⚡",
-      proficiency: 80,
-      description: "Modern, fast web framework for building APIs with Python",
+      icon: "🧪",
+      proficiency: 85,
+      description: "Lightweight WSGI web application framework in Python",
     },
+
     {
-      name: "GraphQL",
+      name: "Django",
       category: "backend",
-      icon: "◼️",
+      icon: "🎸",
       proficiency: 75,
-      description: "Query language for APIs and runtime for executing those queries",
+      description: "High-level Python web framework that encourages rapid development",
     },
 
     // Database
@@ -106,20 +96,7 @@ export default function UpdatedTechStack() {
       proficiency: 85,
       description: "Document-oriented NoSQL database used for high volume data storage",
     },
-    {
-      name: "Redis",
-      category: "database",
-      icon: "🔴",
-      proficiency: 80,
-      description: "In-memory data structure store used as database, cache, and message broker",
-    },
-    {
-      name: "Prisma",
-      category: "database",
-      icon: "🔺",
-      proficiency: 85,
-      description: "Next-generation ORM for Node.js and TypeScript",
-    },
+   
 
     // Tools
     {
@@ -143,20 +120,7 @@ export default function UpdatedTechStack() {
       proficiency: 80,
       description: "Comprehensive cloud computing platform with various services",
     },
-    {
-      name: "CI/CD",
-      category: "tool",
-      icon: "🔄",
-      proficiency: 85,
-      description: "Practices of continuous integration and continuous deployment",
-    },
-    {
-      name: "Jest",
-      category: "tool",
-      icon: "🃏",
-      proficiency: 80,
-      description: "JavaScript testing framework with a focus on simplicity",
-    },
+    
   ]
 
   const categories = [

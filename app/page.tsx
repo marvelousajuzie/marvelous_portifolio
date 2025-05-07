@@ -339,7 +339,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="https://linkedin.com/in/marvelousajuzie"
+             href="https://www.linkedin.com/in/marvelous-ajuzie-14652b2a4/"
               target="_blank"
               aria-label="LinkedIn"
               className="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
@@ -348,7 +348,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="mailto:marvelous@example.com"
+              href="mailto:chizurummarvelous14@gmail.com"
               aria-label="Email"
               className="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
             >
@@ -514,7 +514,7 @@ export default function Home() {
                 {
                   title: "Frontend",
                   description: "Creating beautiful, responsive user interfaces",
-                  techs: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Redux"],
+                  techs: ["Flutter", "React.js", "TypeScript", "Tailwind CSS", "JavaScrips",],
                   color: "from-blue-500/30 to-purple-500/30",
                   icon: (
                     <svg
@@ -536,7 +536,7 @@ export default function Home() {
                 {
                   title: "Backend",
                   description: "Building robust server-side applications",
-                  techs: ["Node.js", "Express", "Python", "FastAPI", "GraphQL", "REST"],
+                  techs: ["Python", "Flask", "Django", "REST-ApI"],
                   color: "from-purple-500/30 to-blue-500/30",
                   icon: (
                     <svg
@@ -558,7 +558,7 @@ export default function Home() {
                 {
                   title: "Infrastructure",
                   description: "Deploying and scaling applications",
-                  techs: ["AWS", "Docker", "PostgreSQL", "MongoDB", "Redis", "CI/CD"],
+                  techs: ["AWS", "Docker", "PostgreSQL", "MongoDB"],
                   color: "from-blue-500/30 to-purple-500/30",
                   icon: (
                     <svg

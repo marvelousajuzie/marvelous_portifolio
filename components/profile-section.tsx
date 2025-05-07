@@ -83,7 +83,7 @@ export default function ProfileSection() {
                   <Linkedin className="w-5 h-5" />
                 </Link>
                 <Link
-                  href="chizurummarvelous14@gmail.com"
+                  href="mailto:chizurummarvelous14@gmail.com"
                   aria-label="Email"
                   className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
                 >
