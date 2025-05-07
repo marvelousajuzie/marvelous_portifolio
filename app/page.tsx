@@ -765,7 +765,7 @@ export default function Home() {
                 description="A content management system with AI-powered content suggestions, SEO optimization, and analytics."
                 technologies={["Python", "Django", "PostgreSQL", "Docker"]}
                 image="/Todolist_api.png"
-                link="https://ai-content-hub.vercel.app"
+                link="https://todolist-api-cv4n.onrender.com/"
               />
             </motion.div>
           </div>
@@ -783,7 +783,7 @@ export default function Home() {
               className="border-white/20 hover:bg-white/10 relative overflow-hidden group"
             >
               <Link href="/projects">
-                <span className="relative z-10">View All Projects</span>
+                {/* <span className="relative z-10">View All Projects</span> */}
                 <motion.span
                   className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100"
                   initial={{ x: "-100%" }}
