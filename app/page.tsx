@@ -735,7 +735,7 @@ export default function Home() {
                 description="A data visualization dashboard with real-time updates and interactive charts for business intelligence."
                 technologies={[ "Flutter", "Python", "Django","Next.js", "React", "Javascripts", "Typescripts", "PostgresQl"]}
                 image="/securabox.Png"
-                link="https://analytics-dashboard.vercel.app"
+                link="https://securabox.vercel.app/"
               />
             </motion.div>
 
@@ -750,7 +750,7 @@ export default function Home() {
                 description="A responsive social media application with real-time messaging, notifications, and content sharing."
                 technologies={["Python", "Django", "PostgreSQL", "Docker"]}
                 image="/Ecommerce.jpg"
-                link="https://social-connect.vercel.app"
+                link="https://ecommerce-api-i8jm.onrender.com/"
               />
             </motion.div>
 
