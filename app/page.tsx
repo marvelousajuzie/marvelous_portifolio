@@ -339,7 +339,7 @@ export default function Home() {
             </Link>
 
             <Link
-             href="https://www.linkedin.com/in/marvelous-ajuzie-14652b2a4/"
+              href="https://linkedin.com/in/marvelousajuzie"
               target="_blank"
               aria-label="LinkedIn"
               className="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
@@ -348,7 +348,7 @@ export default function Home() {
             </Link>
 
             <Link
-              href="mailto:chizurummarvelous14@gmail.com"
+              href="mailto:marvelous@example.com"
               aria-label="Email"
               className="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all"
             >
@@ -514,7 +514,7 @@ export default function Home() {
                 {
                   title: "Frontend",
                   description: "Creating beautiful, responsive user interfaces",
-                  techs: ["Flutter", "React.js", "TypeScript", "Tailwind CSS", "JavaScrips",],
+                  techs: [ "Flutter","React", "Next.js", "TypeScript", "Tailwind CSS",],
                   color: "from-blue-500/30 to-purple-500/30",
                   icon: (
                     <svg
@@ -536,7 +536,7 @@ export default function Home() {
                 {
                   title: "Backend",
                   description: "Building robust server-side applications",
-                  techs: ["Python", "Flask", "Django", "REST-ApI"],
+                  techs: ["Python", "Django","Node.js", "Express", "Flask", "REST-API"],
                   color: "from-purple-500/30 to-blue-500/30",
                   icon: (
                     <svg
@@ -716,10 +716,11 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.1 }}
             >
               <UpdatedProjectCard
-                title="E-commerce Platform"
+                title="Aleris-AI"
                 description="A full-featured e-commerce platform with real-time inventory, payment processing, and admin dashboard."
-                technologies={["Next.js", "React", "Node.js", "PostgreSQL", "Stripe"]}
-                image="/ecommerce-platform.png"
+                technologies={["Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
+                image="/aleris-dashboard.png"
+                link="https://alerisai.vercel.app"
               />
             </motion.div>
 
@@ -730,10 +731,11 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <UpdatedProjectCard
-                title="Real-time Analytics Dashboard"
+                title="SecuraBox"
                 description="A data visualization dashboard with real-time updates and interactive charts for business intelligence."
-                technologies={["React", "D3.js", "WebSockets", "Node.js", "MongoDB"]}
-                image="/analytics-dashboard.png"
+                technologies={[ "Flutter", "Python", "Django","Next.js", "React", "Javascripts", "Typescripts", "PostgresQl"]}
+                image="/securabox.Png"
+                link="https://analytics-dashboard.vercel.app"
               />
             </motion.div>
 
@@ -744,10 +746,11 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.3 }}
             >
               <UpdatedProjectCard
-                title="Social Media Platform"
+                title="Ecommerce API"
                 description="A responsive social media application with real-time messaging, notifications, and content sharing."
-                technologies={["Next.js", "TypeScript", "GraphQL", "PostgreSQL", "Redis"]}
-                image="/social-media-app.png"
+                technologies={["Python", "Django", "PostgreSQL", "Docker"]}
+                image="/Ecommerce.jpg"
+                link="https://social-connect.vercel.app"
               />
             </motion.div>
 
@@ -758,10 +761,11 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <UpdatedProjectCard
-                title="AI-Powered Content Manager"
+                title="Todolist API"
                 description="A content management system with AI-powered content suggestions, SEO optimization, and analytics."
-                technologies={["React", "Node.js", "OpenAI", "MongoDB", "AWS"]}
-                image="/ai-content-manager.png"
+                technologies={["Python", "Django", "PostgreSQL", "Docker"]}
+                image="/Todolist_api.png"
+                link="https://ai-content-hub.vercel.app"
               />
             </motion.div>
           </div>
