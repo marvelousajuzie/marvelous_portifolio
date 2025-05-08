@@ -71,9 +71,9 @@ export default function Experience() {
 
   const experiences = [
     {
-      title: "Senior Fullstack Developer",
-      company: "Tech Innovations Inc.",
-      period: "2021 - Present",
+      title: "Software Developer",
+      company: "Klipto Tchnology",
+      period: "2023 - 2024",
       description: [
         "Lead development of a Next.js e-commerce platform with 1M+ monthly active users",
         "Architected and implemented microservices using Node.js and Python",
@@ -83,32 +83,7 @@ export default function Experience() {
         "Collaborated with product managers to define technical requirements and roadmaps",
       ],
     },
-    {
-      title: "Fullstack Developer",
-      company: "DataFlow Systems",
-      period: "2018 - 2021",
-      description: [
-        "Built responsive React.js frontends and RESTful APIs using Node.js",
-        "Implemented real-time data visualization dashboards using D3.js",
-        "Designed and maintained PostgreSQL databases with complex schemas",
-        "Collaborated with UX/UI designers to implement pixel-perfect interfaces",
-        "Implemented authentication and authorization systems using OAuth2 and JWT",
-        "Participated in on-call rotations and handled production incidents",
-      ],
-    },
-    {
-      title: "Junior Web Developer",
-      company: "WebSolutions Co.",
-      period: "2016 - 2018",
-      description: [
-        "Developed responsive web applications using React.js and Django",
-        "Implemented authentication and authorization systems",
-        "Built and maintained RESTful APIs for mobile applications",
-        "Assisted in database design and optimization",
-        "Developed internal tools to improve team productivity",
-        "Collaborated with QA team to ensure code quality and test coverage",
-      ],
-    },
+   
   ]
 
   return (
