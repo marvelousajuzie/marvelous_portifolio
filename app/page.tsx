@@ -954,8 +954,8 @@ export default function Home() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-400 mb-1">Email</div>
-                      <a href="mailto:marvelous@example.com" className="hover:text-blue-300 transition-colors">
-                        marvelous@example.com
+                      <a href="mailto:Chizurummarvelous14@gmail.com" className="hover:text-blue-300 transition-colors">
+                      Chizurummarvelous14@gmail.com
                       </a>
                     </div>
                   </motion.div>
@@ -977,12 +977,12 @@ export default function Home() {
                     <div>
                       <div className="text-sm text-gray-400 mb-1">LinkedIn</div>
                       <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/marvelous-ajuzie-14652b2a4/"
                         target="_blank"
                         className="hover:text-blue-300 transition-colors"
                         rel="noreferrer"
                       >
-                        linkedin.com/in/marvelousajuzie
+                     linkedin.com/in/marvelous-ajuzie-14652b2a4/
                       </a>
                     </div>
                   </motion.div>
@@ -1004,7 +1004,7 @@ export default function Home() {
                     <div>
                       <div className="text-sm text-gray-400 mb-1">GitHub</div>
                       <a
-                        href="https://github.com"
+                        href="https://github.com/marvelousajuzie"
                         target="_blank"
                         className="hover:text-blue-300 transition-colors"
                         rel="noreferrer"
@@ -1219,7 +1219,7 @@ export default function Home() {
 
                 <motion.div whileHover={{ y: -5 }} transition={{ type: "spring", stiffness: 500, damping: 10 }}>
                   <Link
-                    href="mailto:marvelous@example.com"
+                    href="mailto:chizurummarvelous14@gmail.com"
                     aria-label="Email"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 transition-all relative overflow-hidden"
                   >
