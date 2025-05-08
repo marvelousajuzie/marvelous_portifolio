@@ -12,25 +12,24 @@ export default function CaseStudy() {
           <div className="inline-block px-3 py-1 border border-gray-700 rounded-full text-sm text-gray-400 mb-4">
             Case Study
           </div>
-          <h3 className="text-2xl font-bold mb-4">E-commerce Platform Redesign</h3>
+          <h3 className="text-2xl font-bold mb-4">Aleris AI Conversational Health Companion</h3>
           <p className="text-gray-400 mb-6">
-            A complete redesign and development of an e-commerce platform with Next.js frontend and Node.js backend.
+          Aleris AI is an intelligent health assistant that empowers users to manage everyday wellness through natural conversations. Built with a seamless onboarding experience and conversational AI, it helps users diagnose symptoms, get wellness tips, and access personalized advice on when to seek professional care.
           </p>
 
           <div className="space-y-6">
             <div>
               <h4 className="text-lg font-semibold mb-2">The Challenge</h4>
               <p className="text-gray-400">
-                The client needed to modernize their outdated e-commerce platform to improve user experience, increase
-                conversion rates, and enable rapid feature development.
+              Health-related information can be overwhelming and inaccessible to many individuals, especially when trying to understand symptoms or make decisions about seeking medical help. The goal was to design an intuitive, private, and accessible tool to bridge the gap between users and reliable health guidance.
+
               </p>
             </div>
 
             <div>
               <h4 className="text-lg font-semibold mb-2">The Solution</h4>
               <p className="text-gray-400">
-                I designed and implemented a modern, responsive frontend with Next.js and a scalable backend with
-                Node.js microservices, using PostgreSQL for data storage and Redis for caching.
+              The frontend was built with React and TailwindCSS for fast, responsive UI development. Backend services(Supabase) (where applicable) are designed to integrate securely with AI APIs and authentication providers. The conversational AI is structured to allow for scalable prompt customization and feedback learning.
               </p>
             </div>
 
@@ -55,15 +54,12 @@ export default function CaseStudy() {
 
           <div className="mt-8">
             <Button asChild variant="outline" className="border-white/20 hover:bg-white/10">
-              <Link href="#">
-                Read Full Case Study <ArrowRight className="ml-2 w-4 h-4" />
-              </Link>
             </Button>
           </div>
         </div>
 
         <div className="relative h-full min-h-[300px] md:min-h-full">
-          <Image src="/ecommerce-case-study.jpg" alt="E-commerce Platform Redesign" fill className="object-cover" />
+          <Image src="/aleris-dashboard.png" alt="Aleris AI" fill className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent md:bg-gradient-to-l md:from-transparent md:to-black/80" />
 
           <div className="absolute bottom-8 right-8 md:left-8 md:right-auto">

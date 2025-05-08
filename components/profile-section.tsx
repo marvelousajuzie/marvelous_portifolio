@@ -120,7 +120,7 @@ export default function ProfileSection() {
               </div>
               <div className="px-4 py-2 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
                 <span className="text-sm text-gray-400">Experience</span>
-                <p className="font-medium">4+ Years</p>
+                <p className="font-medium">3+ Years</p>
               </div>
               <div className="px-4 py-2 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10">
                 <span className="text-sm text-gray-400">Availability</span>

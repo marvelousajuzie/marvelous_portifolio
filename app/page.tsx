@@ -1187,7 +1187,7 @@ export default function Home() {
               <div className="mt-6 flex gap-4">
                 <motion.div whileHover={{ y: -5 }} transition={{ type: "spring", stiffness: 500, damping: 10 }}>
                   <Link
-                    href="https://github.com"
+                    href="https://github.com/marvelousajuzie"
                     target="_blank"
                     aria-label="GitHub"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 transition-all relative overflow-hidden"
@@ -1203,7 +1203,7 @@ export default function Home() {
 
                 <motion.div whileHover={{ y: -5 }} transition={{ type: "spring", stiffness: 500, damping: 10 }}>
                   <Link
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/marvelous-ajuzie-14652b2a4/"
                     target="_blank"
                     aria-label="LinkedIn"
                     className="w-10 h-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 transition-all relative overflow-hidden"
@@ -1262,24 +1262,7 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h4 className="text-lg font-semibold mb-4">Legal</h4>
-              <ul className="space-y-3">
-                <motion.li whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300, damping: 10 }}>
-                  <Link href="#" className="text-gray-400 hover:text-blue-300 transition-colors">
-                    Privacy Policy
-                  </Link>
-                </motion.li>
-                <motion.li whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300, damping: 10 }}>
-                  <Link href="#" className="text-gray-400 hover:text-blue-300 transition-colors">
-                    Terms of Service
-                  </Link>
-                </motion.li>
-                <motion.li whileHover={{ x: 5 }} transition={{ type: "spring", stiffness: 300, damping: 10 }}>
-                  <Link href="#" className="text-gray-400 hover:text-blue-300 transition-colors">
-                    Cookie Policy
-                  </Link>
-                </motion.li>
-              </ul>
+              
             </motion.div>
           </div>
 
