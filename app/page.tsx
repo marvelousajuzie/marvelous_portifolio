@@ -734,7 +734,7 @@ export default function Home() {
                 title="SecuraBox"
                 description="A data visualization dashboard with real-time updates and interactive charts for business intelligence."
                 technologies={[ "Flutter", "Python", "Django","Next.js", "React", "Javascripts", "Typescripts", "PostgresQl"]}
-                image="/securabox.Png"
+                image="/securabox.png"
                 link="https://securabox.vercel.app/"
               />
             </motion.div>
