@@ -717,7 +717,7 @@ export default function Home() {
             >
               <UpdatedProjectCard
                 title="Aleris-AI"
-                description="A full-featured e-commerce platform with real-time inventory, payment processing, and admin dashboard."
+                description="Aleris AI is a smart, conversational health companion designed to help individuals make informed decisions about their well-being. By simply describing your symptoms or asking health-related questions, Aleris uses advanced artificial intelligence to provide personalized insights"
                 technologies={["Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
                 image="/aleris-dashboard.png"
                 link="https://alerisai.vercel.app"
@@ -732,7 +732,7 @@ export default function Home() {
             >
               <UpdatedProjectCard
                 title="SecuraBox"
-                description="A data visualization dashboard with real-time updates and interactive charts for business intelligence."
+                description="SecuraBox is a cutting-edge SaaS solution designed to safely store and manage your most sensitive information. From social media credentials to passwords, certificates, NIN, social security numbers, and other vital digital assets,"
                 technologies={[ "Flutter", "Python", "Django","Next.js", "React", "Javascripts", "Typescripts", "PostgresQl"]}
                 image="/securabox.png"
                 link="https://securabox.vercel.app/"
@@ -747,7 +747,7 @@ export default function Home() {
             >
               <UpdatedProjectCard
                 title="Ecommerce API"
-                description="A responsive social media application with real-time messaging, notifications, and content sharing."
+                description="A responsive Ecommerce Application Programming Interface with buying of product, Cart, and Order"
                 technologies={["Python", "Django", "PostgreSQL", "Docker"]}
                 image="/Ecommerce.jpg"
                 link="https://ecommerce-api-i8jm.onrender.com/"
@@ -762,7 +762,7 @@ export default function Home() {
             >
               <UpdatedProjectCard
                 title="Todolist API"
-                description="A content management system with AI-powered content suggestions, SEO optimization, and analytics."
+                description="A responsive Todolist Application Programming Interface Where Users can create, Read, update and Delete"
                 technologies={["Python", "Django", "PostgreSQL", "Docker"]}
                 image="/Todolist_api.png"
                 link="https://todolist-api-cv4n.onrender.com/"
