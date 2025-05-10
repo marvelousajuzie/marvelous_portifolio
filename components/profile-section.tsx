@@ -59,7 +59,7 @@ export default function ProfileSection() {
                 style={{ animationDuration: "3s" }}
               />
               <div className="absolute inset-2 rounded-full overflow-hidden border-2 border-white/20">
-                <Image src="/marvelbrown.jpg" alt="Marvelous Ajuzie" fill className="object-cover" />
+                <Image src="/marvel-1.jpg" alt="Marvelous Ajuzie" fill className="object-cover" />
               </div>
               <div className="absolute -inset-0.5 rounded-full border border-white/20 opacity-50" />
               <div className="absolute -inset-2 rounded-full border border-white/10 opacity-30" />
