@@ -720,7 +720,7 @@ export default function Home() {
                 description="Aleris AI is a smart, conversational health companion designed to help individuals make informed decisions about their well-being. By simply describing your symptoms or asking health-related questions, Aleris uses advanced artificial intelligence to provide personalized insights"
                 technologies={["Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
                 image="/aleris-dashboard.png"
-                link="https://aleris-ai.vercel.app/"
+                link="https://aleris-ai.site/"
               />
             </motion.div>
 
