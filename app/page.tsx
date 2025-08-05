@@ -719,27 +719,27 @@ export default function Home() {
                 title="Aleris-AI"
                 description="Aleris AI is a smart, conversational health companion designed to help individuals make informed decisions about their well-being. By simply describing your symptoms or asking health-related questions, Aleris uses advanced artificial intelligence to provide personalized insights"
                 technologies={["Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
-                image="/aleris-dashboard.png"
-                link="https://aleris-ai.site/"
+                image="/aleris.png"
+                link="https://www.aleris-ai.site/"
               />
             </motion.div>
 
 
-
+{/* 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, delay: 0.1 }}
-            >
-              <UpdatedProjectCard
+            > */}
+              {/* <UpdatedProjectCard
                 title="Life-Muse"
                 description="Aleris AI is a smart, conversational health companion designed to help individuals make informed decisions about their well-being. By simply describing your symptoms or asking health-related questions, Aleris uses advanced artificial intelligence to provide personalized insights"
                 technologies={["Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
                 image="/lifemuse.png"
                 link="https://life-muse.vercel.app/"
-              />
-            </motion.div>
+              /> */}
+            {/* </motion.div> */}
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
