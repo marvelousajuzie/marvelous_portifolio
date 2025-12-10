@@ -734,15 +734,16 @@ export default function Home() {
               <UpdatedProjectCard
                 title="ClientFlow"
                 description=" Client Flow is a secure web app where freelancers or small agencies can invite their clients to:
-- View project updates  
-- Download files  
-- Receive/send invoices  
-- Chat or leave comments  
-- Track progress or deadlines  
-"
+                    - View project updates   
+                                - Download files  
+                                 - Receive/send invoices  
+                            - Chat or leave comments  
+                                      - Track progress or deadlines  
+                   "
                 technologies={[ "Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
                 image="/clientflow.png"
                 link="https://client-flow-gamma.vercel.app/"
+           
               />
             </motion.div>
             <motion.div
