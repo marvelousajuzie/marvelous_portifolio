@@ -742,7 +742,7 @@ export default function Home() {
 "
                 technologies={[ "Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
                 image="/clientflow.png"
-                link="https://clientflow.vercel.app/"
+                link="https://client-flow-gamma.vercel.app/"
               />
             </motion.div>
             <motion.div
@@ -769,7 +769,7 @@ export default function Home() {
               <UpdatedProjectCard
                 title="Ecommerce API"
                 description="A responsive Ecommerce Application Programming Interface with buying of product, Cart, and Order"
-                technologies={["Python", "Django", "PostgreSQL", "Docker"]}
+                technologies={["Nodejs", "Javascript", "PostgreSQL", "Docker"]}
                 image="/Ecommerce.jpg"
                 link="https://ecommerce-api-i8jm.onrender.com/"
               />
