@@ -770,7 +770,7 @@ export default function Home() {
               <UpdatedProjectCard
                 title="Ecommerce API"
                 description="A responsive Ecommerce Application Programming Interface with buying of product, Cart, and Order"
-                technologies={["Nodejs", "Javascript", "PostgreSQL", "Docker"]}
+                technologies={["Python", "Django", "PostgreSQL", "Docker"]}
                 image="/Ecommerce.jpg"
                 link="https://ecommerce-api-i8jm.onrender.com/"
               />
