@@ -768,6 +768,22 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.3 }}
             >
               <UpdatedProjectCard
+                title="Subscription Tracking API"
+                description="A comprehensive API for managing subscription tracking, user management, and automated workflows"
+                technologies={["nodejs", "Express.js", "Mongodb", "Render"]}
+                image="tracker-api.png"
+                link="https://subscription-tracking-api-m850.onrender.com/api-docs/"
+              />
+            </motion.div>
+
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+            >
+              <UpdatedProjectCard
                 title="Ecommerce API"
                 description="A responsive Ecommerce Application Programming Interface with buying of product, Cart, and Order"
                 technologies={["Python", "Django", "PostgreSQL", "Docker"]}
