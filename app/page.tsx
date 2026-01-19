@@ -756,7 +756,7 @@ export default function Home() {
                 title="SecuraBox"
                 description="SecuraBox is a cutting-edge SaaS solution designed to safely store and manage your most sensitive information. From social media credentials to passwords, certificates, NIN, social security numbers, and other vital digital assets,"
                 technologies={[ "Flutter", "Python", "Django","Next.js", "React", "Javascripts", "Typescripts", "PostgresQl"]}
-                image="/securabox.png"
+                image="/securabox-phone.jpg"
                 link="https://securabox.vercel.app/"
               />
             </motion.div>
