@@ -718,7 +718,7 @@ export default function Home() {
               <UpdatedProjectCard
                 title="Aleris-AI"
                 description="Aleris AI is a smart, conversational health companion designed to help individuals make informed decisions about their well-being. By simply describing your symptoms or asking health-related questions, Aleris uses advanced artificial intelligence to provide personalized insights"
-                technologies={["Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
+                technologies={["Next.js", "React", "Javascripts", "Typescripts", "nodejs", "Express.js", "Mongodb"]}
                 image="/aleris.png"
                 link="https://www.aleris-ai.site/"
               />
@@ -740,7 +740,7 @@ export default function Home() {
                             - Chat or leave comments  
                                       - Track progress or deadlines  
                    "
-                technologies={[ "Next.js", "React", "Javascripts", "Typescripts", "Supabase"]}
+                technologies={[ "Next.js", "React", "Javascripts", "Typescripts", "nodejs", "Express.js", "Mongodb"]}
                 image="/clientflow.png"
                 link="https://client-flow-gamma.vercel.app/"
            
@@ -755,7 +755,7 @@ export default function Home() {
               <UpdatedProjectCard
                 title="SecuraBox"
                 description="SecuraBox is a cutting-edge SaaS solution designed to safely store and manage your most sensitive information. From social media credentials to passwords, certificates, NIN, social security numbers, and other vital digital assets,"
-                technologies={[ "Flutter", "Python", "Django","Next.js", "React", "Javascripts", "Typescripts", "PostgresQl"]}
+                technologies={[ "Flutter", "Python", "Django","dart", "PostgresQl"]}
                 image="/securabox-phone.jpg"
                 link="https://securabox.vercel.app/"
               />
